@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razvoj veb aplikacija</title>
+    <link rel="stylesheet" type="text/css" href="styles/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <h3>CompSHOP</h3>
+            </div>
+            <div class="links">
+                <ul>
+                    <li> <a href="#">Moj Nalog</a> </li>
+                    <li> <a href="#">Pregled</a> </li>
+                    <li> <a href="#sales">Akcije</a> </li>
+                </ul>
+            </div>
+            <div>
+                <i class="fa fa-cart-plus"></i>
+            </div>
+        </nav>
+        <section id='welcome-banner'>
+            <h1>Welcome</h1>
+            <a id="call-to-action" href="#" class="page-button page-button-secondary">Shop</a>
+        </section>
+    </header>
+    <main class="main">
+
+        <aside class="discount">
+            <p>
+                Na sve kupljeno do 25.05.2020 popust <span class="discount-percentage">30%</span>
+            </p>
+        </aside>
+
+        <section class="content">
+            <div class="sales" id="sales">
+                <div class="card">
+                    <img  class="card-img-top sales-img-1" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">25 &euro;</h5>
+                      <p class="card-text">Clean Code</p>
+                      <a href="#" class="btn page-button page-button-primary">Buy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top sales-img-2" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">22 &euro;</h5>
+                      <p class="card-text">Pragmatic Programmer</p>
+                      <a href="#" class="btn page-button page-button-primary">Buy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top sales-img-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">20 &euro;</h5>
+                      <p class="card-text">Design Patterns Gang of Four.</p>
+                      <a href="#" class="btn page-button page-button-primary">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <p>Jovan Matic MIT9/19 Razvoj Veb Aplikacija 2020</p>
+    </footer>
+</body>
+</html>

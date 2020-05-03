@@ -1,0 +1,44 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'mixins';
+@import 'media_queries';
+@import 'components';
+
+.main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    min-height: 400px;
+    padding: 10px;
+    margin: 10px;
+
+    aside {
+        height: 100%;
+        min-width: 40px;
+        min-width: 100px;
+        color: white;
+        background-color: @primary;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .content {
+
+        height: 100%;
+        .sales {
+            padding: 20px;
+            display: flex;
+            justify-content: space-evenly;
+            .card {
+                width: 18rem;
+            }
+        }
+    }
+}
+
+@br:3;
+
+.sales-img(@br);

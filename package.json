@@ -1,0 +1,17 @@
+{
+  "name": "razvoj_veb_aplikacija",
+  "version": "1.0.0",
+  "description": "projekatat iz razvoja veb apliakcija",
+  "main": "Grunt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0"
+  }
+}

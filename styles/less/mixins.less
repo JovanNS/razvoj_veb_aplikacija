@@ -1,0 +1,7 @@
+
+.sales-img(@i) when (@i > 0) {
+    .sales-img-@{i}{
+        content:url("../../images/sales/@{i}.jpg");
+    }
+    .sales-img(( @i - 1));
+}
